@@ -1,0 +1,108 @@
+
+
+.container {
+    margin: auto;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+    padding-top: 2%;
+    }
+    .heading_container{
+        width: 90%;
+    }
+    .content_box{
+        
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        
+        
+    }
+    .quantity_box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        
+
+    }
+    .quantity_box>h2{
+        font-weight: 400;
+    }
+    .heading_container>h1{
+        font-weight: 400;
+        margin: 0;
+        font-size: 35px;
+    }
+    .checkbox{
+        border: 3px solid black;
+
+    }
+    .quantity>button{
+        border: 3px solid black;
+        font-size: 25px;
+        font-weight: 500;
+        padding: 0px 8px;
+        text-align: center;
+
+    }
+    .quantity>button:first-child{
+        padding: 0px 10px;
+    }
+    .quantity>span{
+        font-size: 25px;
+        margin: 0px 10px;
+    }
+    .addons{
+        display: flex;
+         align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .addons>input{
+        height: 30px;
+        width: 30px;
+        border: 3px solid black;
+        margin-right: 10px;
+        
+    }
+
+    .pizza>img{
+        width:70%;
+        margin-left: 20px;
+    }
+
+    .total_price_container{
+        border: 3px solid black;
+        width: 100%;
+        padding: 2% 0%;
+        display: flex;
+        align-items: center;
+       justify-content: right;
+        
+    }
+    .price{
+       
+        padding: 0%;
+        margin-right: -100px;
+        font-weight: 500;
+       
+    }
+    .discount input{
+        width: 25%;
+        height: 20px;
+    }
+
+    .discounted-total{
+        color: red;
+    }
+    .discount{
+        color: skyblue;
+    }
+    .total{
+        color: grey;
+    }
